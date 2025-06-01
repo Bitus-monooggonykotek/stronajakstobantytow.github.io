@@ -10,7 +10,9 @@
             padding: 0;
             <!--box-sizing: border-box;-->
         }
-
+         .pole { 
+        background-color: lightgreen;
+        }
         body {
            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTROaFFJwM3LNv8eRs7BikXHqy7fS4Zx4exfw&s');
         }
@@ -117,19 +119,19 @@
                     <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th>
                 </tr>
                 <tr>
-                    <th>2</th> <td>a</td> <td>b</td><td>c</td> <td>d</td> <td>e</td>
+                    <th>2</th> <td>a</td> <td class=pole>b</td><td class=pole>c</td> <td>d</td> <td>e</td>
                 </tr>
                 <tr>
-                    <th>3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td>j</td>
+                    <th>3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td class=pole>j</td>
                 </tr>
                 <tr>
-                    <th>4</th> <td>k</td> <td>l</td> <td>m</td> <td>n</td> <td>o</td>
+                    <th>4</th> <td>k</td> <td>l</td> <td>m</td> <td>n</td> <td class=pole>o</td>
                 </tr>
                 <tr>
-                    <th>5</th> <td>p</td> <td>q</td> <td>r</td> <td>s</td> <td>t</td> 
+                    <th>5</th> <td class=pole>p</td> <td class=pole>q</td> <td class=pole>r</td> <td>s</td> <td>t</td> 
                 </tr>
                 <tr>
-                    <th>6</th> <td>u</td> <td>v</td> <td>t</td> <td>y</td> <td>z</td>
+                    <th>6</th> <td class=pole>u</td > <td class=pole>v</td> <td class=pole>w</td> <td>y</td> <td>z</td>
                 </tr>
                 </table>
  <table class= tabelka>
@@ -137,16 +139,16 @@
                     <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th>
                 </tr>
                 <tr>
-                    <th>2</th> <td>a</td> <td colspan = '2' background-color="green">b, c</td> <td>d</td> <td>e</td>
+                    <th>2</th> <td>a</td> <td colspan = '2' class=pole>b, c</td> <td>d</td> <td>e</td>
                 </tr>
                 <tr>
-                    <th>3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td rowspan = '2' background-color="green">j, o</td>
+                    <th>3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td rowspan = '2' class=pole>j, o</td>
                 </tr>
                 <tr>
                     <th>4</th> <td>k</td> <td>l</td> <td>m</td> <td>n</td> 
                 </tr>
                 <tr>
-                    <th>5</th> <td colspan = "3" rowspan= "2" background-color="green">p, q, r, u, v, w</td>  <td>s</td> <td>t</td> 
+                    <th>5</th> <td colspan = "3" rowspan= "2" class=pole>p, q, r, u, v, w</td>  <td>s</td> <td>t</td> 
                 </tr>
                 <tr>
                     <th>6</th>  <td>y</td> <td>z</td>
@@ -163,7 +165,7 @@
                     <th>3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td>j</td>
                 </tr>
                 <tr>
-                    <th>4</th> <td>k</td> <td>l</td> <td rowspan="3" background-color="green">m, r, w</td> <td>n</td> <td>o</td>
+                    <th>4</th> <td>k</td> <td>l</td> <td rowspan="3" class=pole>m, r, w</td> <td>n</td> <td>o</td>
                 </tr>
                 <tr>
                     <th>5</th> <td>p</td> <td>q</td> <td>s</td> <td>t</td> 
