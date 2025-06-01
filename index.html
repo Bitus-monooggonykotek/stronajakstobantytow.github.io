@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,14 @@
         body {
            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTROaFFJwM3LNv8eRs7BikXHqy7fS4Zx4exfw&s');
         }
-
+        .tabelka {
+            border: 1px solid;
+        }
+        th, td {
+          text-align: center;
+          padding: 8px;
+          color: white;
+        }
         .container {
             width: 50%;
             min-height: 100vh;
@@ -97,7 +104,7 @@
             <video class="film" src=kot.mp4 controls="controls"> twoja przeglądarka nie obsługuje tego filmu</video>
         <div class="rzeczy">
             <h2>Tabelka zadanie dla naszego najulubieńszego Profesora</h2>
-            <table>
+            <table class= tabelka>
                 <tr>
                     <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th>
                 </tr>
@@ -108,7 +115,7 @@
                     <th>3</th> <td>f</td> <td>g</td> <td>h</td> <td>i</td> <td>o</td>
                 </tr>
                 <tr>
-                    <th>4</th> <td>p/td> <td>q</td> <td>r</td> <td>l</td> <tdr rowspan = "2">m</td> <td>n</td>
+                    <th>4</th> <td>p</td> <td>q</td> <td>r</td> <td>l</td> <tdr rowspan = "2">m</td> <td>n</td>
                 </tr>
                 <tr>
                     <th>5</th> <td>u</td> <td>v</td> <td colspan="2">w,s</td> s <td>t</td>
