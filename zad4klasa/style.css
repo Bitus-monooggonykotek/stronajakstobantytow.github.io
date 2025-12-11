@@ -1,0 +1,86 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a2e;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ff6b00;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .grafika {
+            background: #2d2d44;
+            border: 2px solid #ff6b00;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .miejsce-na-grafike {
+            width: 100%;
+            height: 200px;
+            background: #1a1a2e;
+            border: 2px dashed #ff6b00;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .miejsce-na-grafike span {
+            color: #ff6b00;
+            font-size: 1.1rem;
+        }
+
+        h2 {
+            color: #ffa500;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #ddd;
+        }
+
+        /* Prosta animacja */
+        .dynia {
+            display: inline-block;
+            font-size: 2rem;
+            animation: skakanie 2s ease-in-out infinite;
+        }
+
+        @keyframes skakanie {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            color: #ffa500;
+        }
+	img {
+		height:100%;
+	}
